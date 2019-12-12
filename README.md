@@ -16,9 +16,10 @@ following fields:
 - vuln (boolean) - label indicating if it is a real vuln or not. This was labeled by
 domain experts, so it is assumed that the tags are 100% accurate.
 
-## The outputs:
+## The code:
 The code contains feature engineering and model training using oversampling.
-The code generates and visualizes metrics for model evaluation over train and test data and orders the test data by a score, where higher scores are expected to be more likely
-of being a vulnerability.
+
+The code generates and visualizes metrics for model evaluation over train and test data and orders the test data by a score, where higher scores are expected to be more likely of being a vulnerability.
+
 An additional analysis of the score and the important features is done in the code.
 
