@@ -2,7 +2,8 @@
 
 ## The Goal
 Identify new open source vulnerabilities by checking github activity.
-We will rank a set of github events by their chance to be a real vulnerability.
+
+The code provides ranking for a set of github events by their chance to be a real vulnerability.
 
 ## The data:
 A TSV (Tab separated file) called “Tagged Data” having 9266 rows, with the following fields:
