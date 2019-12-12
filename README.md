@@ -6,7 +6,7 @@ Identify new open source vulnerabilities by checking github activity.
 The code provides ranking for a set of github events by their chance to be a real vulnerability.
 
 ## The data:
-A TSV (Tab separated file) called “Tagged Data” having 9266 rows, with the following fields:
+A TSV (Tab separated file) called “Tagged Data.csv” having 9266 rows, with the following fields:
 - url (string) - the link to the event in github or in other sources.
 - lang (string) - the programming language of this sample (sparse).
 - eventType (string) - as described here , with some missing values.
