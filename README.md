@@ -4,17 +4,15 @@ The Goal
 Identify new open source vulnerabilities by checking github activity.
 We will rank a set of github events by their chance to be a real vulnerability.
 
-## The inputs:
-- a TSV (Tab separated file) called “Tagged Data” having 9266 rows, with the
-following fields:
+## The data:
+A TSV (Tab separated file) called “Tagged Data” having 9266 rows, with the following fields:
 - url (string) - the link to the event in github or in other sources.
 - lang (string) - the programming language of this sample (sparse).
 - eventType (string) - as described here , with some missing values.
 - repo (string - the name of the repository in github.
 - title (string) - title of the sample.
 - description (string) - description of the sample.
-- vuln (boolean) - label indicating if it is a real vuln or not. This was labeled by
-domain experts, so it is assumed that the tags are 100% accurate.
+- vuln (boolean) - label indicating if it is a real vuln or not. This was labeled by domain experts, so it is assumed that the tags are 100% accurate.
 
 ## The code:
 The code contains feature engineering and model training using oversampling.
