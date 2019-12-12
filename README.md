@@ -1,6 +1,6 @@
 # open-source-vulnerabilities-detection
 
-The Goal
+## The Goal
 Identify new open source vulnerabilities by checking github activity.
 We will rank a set of github events by their chance to be a real vulnerability.
 
